@@ -12,6 +12,7 @@
 - weather/history/byDateRange?fromDate=16/02/2020&toDate=16/02/2020: retrieve all weather history saved in DB by date range
   - parameters: fromDate -> start date
   - parameters: toDate -> end date
+  - Accepted date format: dd/MM/yyyy
 
 ## Test the application
 - Run command `mvn test`
