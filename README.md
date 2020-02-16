@@ -11,7 +11,8 @@
 - /weather/historbyIP?ip=88.135.141.121: retreive all weather history saved in DB by IP address
   - parameters: ip -> ip address
 - weather/history/byDateRange?fromDate=16/02/2020&toDate=16/02/2020: retreive all weather history saved in DB by date range
-  - parameters: fromDate -> start date, toDate -> end date
+  - parameters: fromDate -> start date
+  - parameters: toDate -> end date
 
 ## Test the application
 - Run command `mvn test`
